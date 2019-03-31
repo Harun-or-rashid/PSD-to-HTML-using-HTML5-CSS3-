@@ -1,0 +1,169 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+}
+.fix{
+    width: 960px;
+    margin: 0 auto;
+}
+.float{
+    overflow: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*=========== hero area=======*/
+.hero_area{
+    background-image: url(../project3/image/header.jpg);
+    background-size: cover;
+height: 450px;
+}
+.text{
+  text-align: center;
+  padding-top: 250px;
+  padding: 207px 382px 0px;
+}
+.dscrptntxt {
+	padding-right: 0px 0px 0px 0px;
+	position: absolute;
+	padding-right: 421px;
+
+	margin: -29px 56px -19px -96px;
+	font-size: 16px;
+}
+/*=======About Us Section css=========*/
+.about_us {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	/*padding: 0 190px 40px;*/
+     position: relative;
+    text-align: center;
+    margin: 95px auto;
+	width: 745px;
+	height: 260px;
+}
+
+
+.about_us:after,
+.about_us:before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+    height: 2px;
+    width: 300px;
+    background: #000;
+}
+.about_us::before {
+    left: auto;
+    right: 0;
+}
+
+.about_us > h1 {
+	text-align: center;
+	margin-bottom: 33px;
+	font-size: 25px;
+	position: relative;
+	top: -15px;
+}
+.about_us p{
+   font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.about_us p+p{
+    
+}
+.service{
+    
+    height: 220px;
+    text-align: center;
+    background-image: url(image/pic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 270px;
+    position: relative;
+}
+.text_wraper {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-left: 291px;
+	margin-right: 296px;
+	border-left: 2px solid black;
+	position: relative;
+	top: 66px;
+	padding: 17px;
+}
+.text_wraper:after,
+.text_wraper:before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+    height: 2px;
+    width: 300px;
+    background: #000;
+}
+.text_wraper::before {
+    left: auto;
+    right: 0;
+}
+.text_wraper h2 {
+	position: relative;
+	top: -52px;
+	text-align: center;
+}
+/*=======What we do css=======*/
+.what_we_do :after,
+.what_we_do :before{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 2px;
+    background:#000;
+}
+.what_we_do ::before{
+    left: auto;
+    right: 0;
+}
+.what_we_do 
+{
+    position: relative;
+	text-align: center;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+/*====Our work css====*/
+.Our_work {
+    overflow: hidden;
+    
+}
+.Our_work ul {
+    overflow: hidden;
+}
+li img {
+	width: 410px;
+	height: 230px;
+	margin-left: 6px;
+
+	padding: 7px 9px 0px 0px;
+	
+}
+.Our_work ul li {
+	list-style: none;
+	float: left;
+	/* float: left; */
+	/* display: inline-block; */
+	/*margin-bottom: 245px;*/
+}
+.list img:nth-child(2) {
+   
+}
